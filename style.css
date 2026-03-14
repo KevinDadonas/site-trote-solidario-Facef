@@ -51,16 +51,13 @@ body{
 }
 
 .cabecalho {
-    border: 3px solid red;
     background-color: #3e5c92;
     color: white;
     padding: 60px 20px;
     text-align: center;
 }
 
-.cabecalho-container{
-    border: 3px solid red;
-}
+
 
 .cabecalho-container h1{
     font-size: 2.5rem;
@@ -74,17 +71,44 @@ body{
 }
 
 .principal{
-    border: 3px solid red;
     max-width: 900px;
     margin: -40px auto 40px;
     padding: 20px;
 }
 
 .secao{
-    border: 3px solid red;
     background: white;
     margin-bottom: 20px;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#section3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#section3 div{
+    background-color: #d4e3ff;
+    border-radius: 8px;
+    border-left: #1e3c72;
+    border-left-width: 5px;
+    border-left-style: solid;
+    padding: 15px;
+    width: 400px;
+}
+
+#section4 div{
+    background-color: rgb(226, 255, 226);
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    color: rgb(5, 165, 5);
+    font-weight: bold;
 }
