@@ -158,3 +158,63 @@ th{
     height: 25px;
     background-color: gray;
 }
+
+#itens-kit{
+    list-style: none;
+}
+
+#itens-kit li{
+    margin-bottom: 10px;
+}
+
+.caixa-laranja{
+    background-color: rgb(255, 236, 201);
+    padding: 20px;
+    border: 2px dashed orange;
+    border-radius: 10px;
+}
+
+.segunda-prova{
+    background-color: rgb(255, 228, 228);
+    border-radius: 10px;
+    border-left: 5px solid red;
+}
+
+.texto-destacado{
+    color: rgb(146, 119, 0);
+}
+
+.fonte-menor{
+    font-size: small;
+}
+
+.prova-amarela{
+    background-color: rgb(255, 255, 230);
+    border-left: 5px solid rgb(248, 228, 45);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e3c72;
+    padding: 15px 0;
+    position: sticky; top: 0; z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-top: 4px solid rgb(248, 228, 45);
+}
+
+.menu-rodape{
+    max-width: 1000px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.menu-rodape p{
+    color: white;
+    margin: 5px;
+}
