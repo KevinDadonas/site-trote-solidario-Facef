@@ -76,7 +76,7 @@ body{
     padding: 20px;
 }
 
-.secao{
+section{
     background: white;
     margin-bottom: 20px;
     padding: 25px;
@@ -100,7 +100,7 @@ body{
     width: 400px;
 }
 
-#section4 div{
+.caixa-importante{
     background-color: rgb(226, 255, 226);
     width: 400px;
     height: 100px;
@@ -115,4 +115,15 @@ body{
 
 img{
     border-radius: 10px;
+}
+
+.missao p{
+    line-height: 1.6; /*altura da linha - melhora a leitura de textos longos*/
+    margin-bottom: 20px;
+    text-align: justify; /*alinhamento à esquerda e à direita*/
+}
+
+.valores ul{
+    list-style: none;
+    padding: 0;
 }
