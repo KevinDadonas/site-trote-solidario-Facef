@@ -159,6 +159,48 @@ th{
     background-color: gray;
 }
 
+.laranja{
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+}
+
+.marrom{
+    width: 25px;
+    height: 25px;
+    background-color: brown;
+}
+
+.preto{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+}
+
+.rosa{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 36, 182);
+}
+
+.roxo{
+    width: 25px;
+    height: 25px;
+    background-color: purple;
+}
+
+.verde{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(155, 233, 39);
+}
+
+.vermelho{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}
+
 #itens-kit{
     list-style: none;
 }
@@ -217,4 +259,8 @@ th{
 .menu-rodape p{
     color: white;
     margin: 5px;
+}
+
+td:hover{
+    background-color: #fffce6;
 }
