@@ -261,6 +261,6 @@ th{
     margin: 5px;
 }
 
-td:hover{
+tr:hover{
     background-color: #fffce6;
 }
