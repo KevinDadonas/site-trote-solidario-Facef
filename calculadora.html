@@ -58,12 +58,28 @@
                     <label>Macarrão (500g)</label>
                     <input type="number" value="0" min="0" id="qtdeMacarrao">
                 </div>
-                <button onclick="calcular()"">Calcular Total</button> <!--quando o botão for clicado, será chamado a função calcular no JavaScript-->
-                <div id="result" class="resultado">
-                    Pontuação Total: 0 pontos
+                
+            </div>
+        </section>
+
+        <section>
+            <h3>Simulador de Pontos - Kit Alimentação</h3>
+            <div>
+                <div class="form-group">
+                    <label for="equipes">Escolha a cor do time</label>
+                    <select id="cor">
+                        <option value="verde">Verde</option>
+                        <option value="vermelho">Vermelho</option>
+                        <option value="laranja">Laranja</option>
+                    </select>
                 </div>
             </div>
         </section>
+
+        <button onclick="calcular()"">Calcular Total</button> <!--quando o botão for clicado, será chamado a função calcular no JavaScript-->
+            <div id="result" class="resultado">
+                    Pontuação Total: 0 pontos
+            </div>
     </main>
 
     <footer class="rodape">
