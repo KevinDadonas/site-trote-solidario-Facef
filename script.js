@@ -9,7 +9,7 @@ function calcular(){
     //pontuação dos kits de alimentação
     let cor = document.getElementById("cor").value //recupera cor esolhida pelo usuário
     //estrutura de seleção
-    let metaKit //
+    let metaKit
 
     if (cor == "verde"){
         metaKit = 61
