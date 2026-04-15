@@ -32,6 +32,32 @@ function calcular(){
     else{ //não bateu a meta
         pontos = pontos + (qtdeKits) * (5000 / metaKit)
     }
+    
+    //define a meta do suplemento
+    let metaSuplemento
 
-    document.getElementById("result").innerText = "Pontuação: " + pontos //mostra a pontuação total do usuário
+    if(metaKit % 2 == 0){ //é par
+        metaSuplemento = metaKit / 2 //divisão de um inteiro por um inteiro dá inteiro
+    }
+    else{
+        metaSuplemento = (metaKit / 2) + 0.5
+    }
+    //obter valor do usuário
+    let qtdeSuplemento = Number(document.getElementById("qtdeSuplemento").value)
+    if (qtdeSuplemento >= metaSuplemento){
+        pontos = pontos + 5000
+        if (qtdeSuplemento > metaSuplemento){
+            pontos = pontos + (qtdeSuplemento - metaSuplemento) * (5000 / metaSuplemento)
+        }
+    }
+    else{
+        pontos = pontos + qtdeSuplemento * (5000 / metaSuplemento)
+    }
+
+    //define a meta do leite
+    let metaLeite = metaKit
+    //define a meta do sangue
+    let metaSangue = metaSuplemento
+
+    document.getElementById("result").innerText = "Pontuação: " + pontos.toFixed(2) //mostra a pontuação total do usuário (pega duas casas depois da vírgula com o .toFixed(2))
 }
